@@ -19,7 +19,9 @@ Cada etapa tendrá instrucciones, código independiente y desafíos. **No buscam
 
 ## Comenzar
 
-El primer laboratorio se prepara en un Pull Request de este repositorio. Una vez incorporado, seguí el README en `01-red-neuronal/`.
+Empezá con [la instalación en Windows o Linux](docs/INSTALACION.md). Después realizá los laboratorios en orden: [00](00-bigramas/README.md), [01](01-red-neuronal/README.md), [02](02-contexto/README.md), [03](03-atencion/README.md), [04](04-mini-transformer/README.md) y [05](05-experimentos/README.md).
+
+Para organizar clases, consultá la [guía docente](docs/GUIA_DOCENTE.md). Si participás como estudiante, usá la [guía para mentees](docs/GUIA_MENTEE.md).
 
 ## Filosofía
 
