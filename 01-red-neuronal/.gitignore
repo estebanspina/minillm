@@ -1,0 +1,4 @@
+modelo.npz
+__pycache__/
+*.pyc
+.venv/
