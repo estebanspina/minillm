@@ -42,3 +42,8 @@ jobs:
           python -m unittest discover -p 'test_*.py'
           python mini_transformer.py entrenar --pasos 3 --lote 4
           python mini_transformer.py generar --inicio 'el ' --longitud 12
+      - name: Probar laboratorio 05
+        working-directory: 05-experimentos
+        run: |
+          python -m unittest discover -p 'test_*.py'
+          python experimentos.py --contextos 4 8 --pasos 3
