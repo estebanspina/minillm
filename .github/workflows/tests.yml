@@ -34,3 +34,11 @@ jobs:
         run: |
           python -m unittest discover -p 'test_*.py'
           python atencion.py --texto hola
+      - name: Instalar PyTorch CPU
+        run: python -m pip install torch --index-url https://download.pytorch.org/whl/cpu
+      - name: Probar mini Transformer
+        working-directory: 04-mini-transformer
+        run: |
+          python -m unittest discover -p 'test_*.py'
+          python mini_transformer.py entrenar --pasos 3 --lote 4
+          python mini_transformer.py generar --inicio 'el ' --longitud 12
