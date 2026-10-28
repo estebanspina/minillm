@@ -29,3 +29,8 @@ jobs:
           python -m unittest discover -p 'test_*.py'
           python minillm_contexto.py entrenar --pasos 10
           python minillm_contexto.py generar --inicio 'el ' --longitud 20
+      - name: Probar laboratorio 03
+        working-directory: 03-atencion
+        run: |
+          python -m unittest discover -p 'test_*.py'
+          python atencion.py --texto hola
